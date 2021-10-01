@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background: black;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* utility */
+.pad{
+    padding: 10px;
+}
+
+.button{
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+    padding: 5px;
+
+}
+
+/* header */
+header{
+    text-align: right;
+}
+
+/* content */
+.content-img li{
+    width: 320px;
+    height: 150px;
+    background: orange;
+    
+}
+
