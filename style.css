@@ -33,10 +33,39 @@ header{
 }
 
 /* content */
-.content-img li{
-    width: 320px;
-    height: 150px;
-    background: orange;
-    
+main{
+    flex-grow: 1;
+    padding: 20px 0;
 }
 
+.content-img{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+}
+
+.content-img li{
+    width: 280px;
+    margin: 5px;
+}
+
+.box-camera{
+    height: 150px;
+    background: orange;
+    position: relative;
+}
+
+.box-camera img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box-camera .name{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 3px;
+    background: rgba(0, 0, 0, .6);
+}
