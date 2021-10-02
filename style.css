@@ -36,6 +36,7 @@ header{
 main{
     flex-grow: 1;
     padding: 20px 0;
+    overflow: auto;
 }
 
 .content-img{
@@ -46,12 +47,12 @@ main{
 }
 
 .content-img li{
-    width: 280px;
+    width: 250px;
     margin: 5px;
 }
 
 .box-camera{
-    height: 150px;
+    height: 120px;
     background: orange;
     position: relative;
 }
@@ -72,12 +73,49 @@ main{
 
 /* footer */
 footer{
-    background: rgb(107, 105, 105);
+    background: rgb(51, 50, 50);
     display: flex;
     justify-content: space-between;
+    font-size: 13px;
 }
 
-.left-icon i{
-    font-size: 30px;
+.footer-left,
+.footer-center{
+    display: flex;
+    list-style: none;
+}
+
+.footer-icon i{
+    font-size: 25px;
     padding: 5px;
+    display: block;
+}
+
+.footer-icon{
+    text-align: center;
+    margin: 0 10px;   
+}
+
+.fa-external-link-alt{
+    color: rgb(70, 253, 70);
+}
+
+ .arrow{
+    display: flex;
+    align-items: center;
+}
+
+.arrow .fa-angle-up {
+    font-size: 15px;
+    margin: 0 5px;
+}
+
+
+/* footer right */
+footer .button {
+    border: none;
+    background: rgb(102, 100, 100);
+    color: red;
+    padding: 0 10px;
+
 }
